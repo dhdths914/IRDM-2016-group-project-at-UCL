@@ -1,12 +1,21 @@
 # IRDM-2016-group-project-at-UCL
 it is the group project for IRDM at UCL
 
-IRDM_xgboost.R/		used xgboost model for the data
+File and its content description:
 
-NARX-dataset.mat/	the dataset for ISE
+data.csv----data(for xgboost)
 
-NARX_chooseparameter.m/	used NARX model for the data
+IRDM_xgboost.R---- perform xgboost model for the data by R
 
-NARX_predictfortestset.m/	forecast the results by NARX
+NARX-dataset.mat-----data(for NARX)
 
-data.csv/ the original ISE data
+NARX_chooseparameter.m-----perform parameter selection of NARX model by MATLAB
+
+NARX_predictfortestset.m-----perform NARX to predict by MATLAB
+
+
+
+
+
+
+
